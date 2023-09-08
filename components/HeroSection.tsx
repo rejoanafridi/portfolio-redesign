@@ -42,7 +42,7 @@ const HeroSection = () => {
             Projects
           </Link>
           <a
-            href='https://drive.google.com/file/d/1uQrA63LdV_poZ9KRfy55mHVuD7GpzmCF/view?usp=sharing'
+            href='https://drive.google.com/file/d/1-rzJgrOIbjGllaedig3Mad-I7vrFIRCB/view?usp=sharing'
             rel='noreferrer'
             target='_blank'
             className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 ml-5'
