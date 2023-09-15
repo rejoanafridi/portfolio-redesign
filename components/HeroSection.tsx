@@ -37,16 +37,14 @@ const HeroSection = () => {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
-          >
+            duration={500}>
             Projects
           </Link>
           <a
-            href='https://drive.google.com/file/d/1-rzJgrOIbjGllaedig3Mad-I7vrFIRCB/view?usp=sharing'
+            href='https://drive.google.com/file/d/16S_YUQ8bNWcrM7GAo6dvIrejRRtdoxA2/view?usp=sharing'
             rel='noreferrer'
             target='_blank'
-            className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 ml-5'
-          >
+            className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 ml-5'>
             Resume
           </a>
         </div>
@@ -58,8 +56,7 @@ const HeroSection = () => {
           spy={true}
           smooth={true}
           offset={-100}
-          duration={500}
-        >
+          duration={500}>
           <HiArrowDown size={35} className='animate-bounce' />
         </Link>
       </div>
