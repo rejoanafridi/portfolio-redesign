@@ -6,9 +6,19 @@ import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 
 const projects = [
   {
+    name: 'Pc - Builder',
+    description:
+      'Pc Builder is A wide selection of electronic products from various brands A user-friendly interface that makes it easy to find and purchase products. It includes a variety of features that search for products, compare products, pc builds, and filtering products',
+    image: '/pc-builder.png',
+    status: 'on going project',
+    github: 'https://github.com/rejoanafridi/pc-builders',
+    link: 'https://pc-builders-rejoan.vercel.app/',
+  },
+  {
     name: 'Mini-Commerce',
     description:
       'This is mini version of E-commerce. There I added some of ecommerce functionality',
+    status: 'complete',
     image: '/mini-commerce.png',
     github: 'https://github.com/rejoanafridi/mini-commerce',
     link: 'https://mini-commerce-rejaon-islam.netlify.app/',
@@ -18,6 +28,7 @@ const projects = [
     description:
       'Book Store CRUD functionality. Here user can add book then its showing in the page also user can edit and delete. Tools: React, Redux, TailWind Css',
     image: '/book-store.png',
+    status: 'Complete',
     github: 'https://github.com/rejoanafridi/book-store',
     link: 'https://book-store-drab.vercel.app/',
   },
