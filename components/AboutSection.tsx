@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 
 const skills = [
@@ -8,16 +7,24 @@ const skills = [
     { skill: 'TypeScript' },
     { skill: 'React' },
     { skill: 'Next.js' },
-    { skill: 'Sass' },
+    { skill: 'SCSS' },
     { skill: 'Tailwind CSS' },
-    { skill: 'Mantine' },
-    { skill: 'Antd' },
+    { skill: 'React Query' },
+    { skill: 'Axios' },
+    { skill: 'Node.js' },
+    { skill: 'Backend development' },
+    { skill: 'REST API' },
+    { skill: 'Ant Design (Antd)' },
     { skill: 'Python' },
     { skill: 'Git' },
-    { skill: 'GitHub' },
     { skill: 'Problem solving' },
-    { skill: 'Docker' },
-    { skill: 'Frontend development' }
+    { skill: 'Frontend development' },
+    { skill: 'CI/CD deployment' },
+    { skill: 'State Management (React Context, Redux, Zustand)' },
+    { skill: 'Clean Architecture & Best Practices' },
+    { skill: 'Custom Hooks & Reusable Components' },
+    { skill: 'Agile & Scrum Workflow' },
+    { skill: 'Project management' }
 ]
 
 const AboutSection = () => {

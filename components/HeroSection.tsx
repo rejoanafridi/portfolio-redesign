@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { Link } from 'react-scroll/modules'
 import { HiArrowDown } from 'react-icons/hi'
-
+import { RESUME_URL } from '@/lib/constant'
 const HeroSection = () => {
     return (
         <section id="home">
@@ -41,7 +41,7 @@ const HeroSection = () => {
                         Projects
                     </Link>
                     <a
-                        href="https://drive.google.com/file/d/1F7wbD-xjoGCiLZShwTi3V2ZXqQikFymg/view?usp=drive_link"
+                        href={RESUME_URL}
                         rel="noreferrer"
                         target="_blank"
                         className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 ml-5"
